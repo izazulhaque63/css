@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>css transform:(skew) skewx, skewy, etc. 
+        ham isko negetive aur (50px, 50px)x-axis and y-axis me bhi use kar sakte hai.</title>
+        
+    <style>
+        .box{
+              height: 100px;
+              width: 100px;
+               border: 2px solid black;
+              border-radius: 5px;
+              background-color: plum;           
+              position: relative;
+              top: 50px;
+              left: 50px;
+
+              transition: all 0.5s ease-in;
+
+
+        }
+        .box:hover{
+             transform: skew(50deg);
+
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="box">skew</div>
+</body>
+</html>

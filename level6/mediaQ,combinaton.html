@@ -1,0 +1,26 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>media queries (combination-width)</title>
+    <style>
+        .box{
+            padding: 5px;
+            height: 100px;
+            width: 100px;
+            background-color: mediumseagreen;
+        }
+        /*combination me min-width 250 aur max-width 300px ke bech me item 50% radiu ban jayega condition ke according aur jaise hi 300px se jayada ya 250px se kam hoga to back to normal position aa jayega*/
+        @media screen and (min-width: 250px) and
+        (max-width: 300px){
+            .box{
+               border-radius: 50%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Box</div>
+</body>
+</html>

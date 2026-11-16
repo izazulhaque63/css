@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>animation all proparty</title>
+    <style>
+        .box{
+              height: 70px;
+              width: 70px;
+              border: 2px solid black;
+              border-radius: 5px;
+              background-color: plum;           
+              position: relative;
+              top: 10px;
+              left: 10px;
+
+              animation-name: ghumakkad;
+              animation-duration: 2s;
+              animation-timing-function: ease-in-out;
+              animation-delay: 1s;
+
+              animation-iteration-count: infinite;
+              animation-direction: alternate;
+
+             /* sare 6 animation proparty ham ek line me likh sake hai jaise ke comment karke likha hai*/ 
+             
+              animation: ghumakkad 2s ease-in-out 1s infinite alternate;
+
+
+        }
+        @keyframes ghumakkad {
+            from {left: 20px;}
+            to {left: 200px;}
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <div class="box">animate</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>border all proparty= box sizing, border radius, borders,</title>
+    <style>
+        * {
+            margin: 0px;
+            padding:0px;
+        }
+        .pad{
+            height: 50px;
+            width: 50px;
+            padding: 2px;
+             margin: 5px;
+             box-sizing: border-box;
+        }
+        #first{
+           
+            border: 2px solid;
+            box-sizing: content-box;
+            background-color: blueviolet;
+            border-radius: 5px 4px 4px 4px;
+        }
+        #second{
+            border: 2px dotted crimson;
+            background-color: burlywood;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="first" class="pad">first</div>
+    <div id="second" class="pad">second</div>
+</body>
+</html>

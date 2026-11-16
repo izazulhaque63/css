@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>media queries (min-width)</title>
+    <style>
+        .box{
+            padding: 5px;
+            height: 100px;
+            width: 100px;
+            background-color: mediumseagreen;
+        }
+        /*min-width ka matlab jaise hi 300px ka condition meet karega screen size 300se 150px ho jayega 
+        ham @media use kare ke sare proparty use kar sakte hai like flexbox and etc.*/
+        @media screen and (min-width: 300px) {
+            .box{
+                height: 150px;
+                width: 150px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Box</div>
+</body>
+</html>
